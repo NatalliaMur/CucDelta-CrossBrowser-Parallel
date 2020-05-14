@@ -1,7 +1,7 @@
 Feature: Myprofile page features functionalities
 
 
-
+	@cross
   Scenario: Veryfy I am on MyProfile page
     Given I am on the home page
     Then I click on login button

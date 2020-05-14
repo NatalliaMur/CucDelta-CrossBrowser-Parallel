@@ -21,7 +21,7 @@ public class Driver {
 	
 	public static WebDriver getDriver() {
 		if(driver == null) {
-			String browser = ConfigReader.getConfiguration("browser");
+			String browser = System.getProperty("browser"); // I can run only through CMD : mvn verify -Dbrowser = "chrome"
 			switch(browser) {
 			case "chrome": 
 				WebDriverManager.chromedriver().setup();

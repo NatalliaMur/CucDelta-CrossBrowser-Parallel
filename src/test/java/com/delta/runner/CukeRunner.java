@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 				"json:target/Cucumber.json "
 		
 		},
-		tags ="@smoke or @regression",
+		tags ="@cross or @parallel",
 		features = "src/test/resources/com/delta/features",
 		glue = "com/delta/step_defenitions"
 //		,strict = true

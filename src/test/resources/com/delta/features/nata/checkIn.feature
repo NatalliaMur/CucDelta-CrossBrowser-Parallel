@@ -42,7 +42,7 @@ Then Click on submit button go to next page
 And Confirm error message "Whoops! We're sorry, but we are unable to find a check-in eligible reservation with the information provided."  
 Then Click on each link in Get To Know Us
 
-
+@parallel
 Scenario: SkyMiles Number
 Then Click on Find Your Trip By dropdown box
 Then Choose SkyMiles Number in dropdown box
