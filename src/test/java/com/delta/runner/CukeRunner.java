@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 		
 		plugin = {"pretty",
 				"html:target/built-in-html-report",
-				"json:target/Cucumber.json "
-		
+				"json:target/Cucumber.json ",
+				"junit:target/Cucumber.xml"
 		},
 		tags ="@cross or @parallel",
 		features = "src/test/resources/com/delta/features",
